@@ -155,3 +155,287 @@ ul li::before {
     position: absolute;
     left: 0;
 }
+
+//Mobile
+@media screen and (max-width: 768px) {
+
+    .hero.hero.is-primary {
+        padding: 0;
+        height: 60px;
+    }
+
+    .hero-body.first-body {
+        padding: 0;
+    }
+
+    .hero-body {
+        padding-top: 40px;
+    }
+
+    .hero-body-mobile {
+        padding-top: 0;
+    }
+
+    .natpis-kako-izgleda {
+        width: 80%;
+    }
+    .kako-izgleda {
+        padding-bottom: 25px;
+        font-family: $family-primary;
+        font-size: 12px;
+        padding-left: 5px;
+        width: 100%;
+    }
+    .has-text-left {
+        padding-left: 55px;
+        padding-top: 10px;
+    }
+
+    .has-text-centered {
+        padding: 0;
+    }
+
+    .kvadratic1 {
+        position: absolute;
+        left: 0;
+        max-width: 5%;
+    }
+
+    .video {
+        width: 460px;
+        height: 215px;
+    }
+
+    .title {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 24px;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+    .getacore-text {
+        font-family: $family-primary;
+        font-weight: 500;
+        font-size: 12px;
+        color: #020202;
+    }
+
+    .title-beige {
+        color: #d1c2af;
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 20px;
+    }
+
+    .title-beige-underline {
+        color: #d1c2af;
+        font-size: 23px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        padding-bottom: 20px;
+    }
+
+    .savjet-tekst {
+        padding-bottom: 25px;
+        font-family: $family-primary;
+        font-size: 12px;
+        padding-bottom: 0; 
+    }
+
+    .caption {
+        padding-bottom: 25px;
+        font-family: $family-primary;
+        font-size: 9px;
+        padding: 0; 
+    }
+
+    .sadrzaj {
+        padding-left: 20px;
+        font-size: 7px;
+    }
+
+    .getacore-logo {
+        width: 230px;
+        height: 31px;
+    }
+
+    .vrste-mramora {
+        width: 220px;
+        height: 177px;
+    }
+
+    .section-white {
+        height: 10px;
+    }
+
+    .amz {
+       width: 123px;
+       height: 27px; 
+    }
+
+    .elgrad {
+        width: 123px;
+        height: 32px;
+    }
+}
+
+//Tablet
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .hero.hero.is-primary {
+        padding-top: 0;
+    }
+
+    .hero-body.first-body {
+        padding: 0;
+    }
+
+    .hero-body {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+.hero-body-mobile {
+    padding-bottom: 100px;
+}
+
+    .natpis-kako-izgleda {
+        width: 80%;
+    }
+    .kako-izgleda {
+        padding-bottom: 25px;
+        font-family: $family-primary;
+        font-size: 11px;
+        padding-left: 20px;
+        width: 100%;
+    }
+    .has-text-left {
+        padding-left: 55px;
+        padding-top: 10px;
+    }
+
+    .hero-body.has-text-center {
+        padding-top: 10px;
+
+    }
+
+    .has-text-centered {
+        padding-top: 20px;
+    }
+
+    .kvadratic1 {
+        position: absolute;
+        left: 0;
+        width: 5%;
+        height: 3%;
+    }
+
+    .video {
+        width: 460px;
+        height: 215px;
+    }
+
+    .traka {
+
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .title {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 23px;
+        font-weight: 500;
+        padding-bottom: 5px;
+        color: #020202;
+    }
+    .getacore-text {
+        font-family: $family-primary;
+        font-weight: 500;
+        font-size: 12px;
+        color: #020202;
+    }
+
+    .title-beige {
+        color: #d1c2af;
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 20px;
+    }
+
+    .title-beige-underline {
+        color: #d1c2af;
+        font-size: 24px;
+        font-family: 'Times New Roman', Times, serif;
+        text-decoration: underline;
+        padding-bottom: 20px;
+    }
+
+    .savjet-tekst {
+        padding-bottom: 25px;
+        font-family: $family-primary;
+        font-size: 12px;
+        padding-bottom: 0; 
+    }
+
+    .caption {
+        padding-bottom: 25px;
+        font-family: $family-primary;
+        font-size: 9px;
+        padding: 0; 
+    }
+
+    .sadrzaj {
+        padding-left: 20px;
+        font-size: 7px;
+    }
+
+    .getacore-logo {
+        width: 230px;
+        height: 31px;
+    }
+
+    .vrste-mramora {
+        width: 220px;
+        height: 177px;
+    }
+
+    .section-white {
+        height: 10px;
+    }
+.container-footer {
+    padding-top: 20px;
+    height: 300px;
+}
+
+}
+
+//iPad Pro
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .hero.is-primary {
+        padding-bottom: 0;
+        height: 249px;
+    }
+
+    .tablet-hero {
+        padding-top: 20px;
+    }
+
+    .natpis-kako-izgleda {
+        width: 85%;
+    }
+
+    .tablet-natpis {
+        padding-left: 0;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1366px) {
+    .kvadratic1 {
+        height: 5%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .tablet-hero {
+        padding-top: 0;
+    }
+}
