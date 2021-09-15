@@ -1,0 +1,157 @@
+@charset "utf-8";
+
+// Customization
+
+// You can easily customize Bulma with your own variables.
+// Just uncomment the following block to see the result.
+
+/*
+// 1. Import the initial variables
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+// 2. Set your own initial variables
+// Update the blue shade, used for links
+$blue: #06bcef;
+// Add pink and its invert
+$pink: #ff8080;
+$pink-invert: #fff;
+// Update the sans-serif font family
+$family-sans-serif: "Helvetica", "Arial", sans-serif;
+
+// 3. Set the derived variables
+// Use the new pink as the primary color
+$primary: $pink;
+$primary-invert: $pink-invert;
+
+// 4. Import the rest of Bulma
+*/
+
+@import "../node_modules/bulma/sass/utilities/initial-variables";
+
+@import "./variables";
+
+@import "../node_modules/bulma/bulma";
+
+.body {
+    background-color: #fafafa;
+    max-width: 100vw;
+    margin: 0
+}
+
+.hero.is-primary {
+    background-color: white;
+    height: 349px;
+    padding-top: 0;
+}
+
+.section-white {
+    height: 50px;
+}
+
+.has-text-left {
+    padding-left: 300px;
+    padding-top: 0;
+}
+
+.kako-izgleda {
+    padding-bottom: 25px;
+    font-family: $family-primary;
+    font-size: $is-size-2;
+}
+
+.title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: $is-size-1;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+
+.getacore-text {
+    font-family: $family-primary;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.67;
+    color: #020202;
+}
+
+.title-beige {
+    color: #d1c2af;
+    font-size: $is-size-1;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 50px;
+}
+
+.savjet-tekst {
+    padding-bottom: 25px;
+    font-family: $family-primary;
+    font-size: $is-size-3;
+    padding-bottom: 0; 
+}
+
+ul {
+    list-style: none;
+}
+ul li::before {
+    content: "\25AA";  
+    color: $sand; 
+    font-weight: bold; 
+    display: inline-block;
+    width: 1em; 
+    margin-left: -1em;
+    
+  }
+
+  .caption {
+    padding-bottom: 25px;
+    font-family: $family-primary;
+    font-size: $is-size-3;
+    padding: 0; 
+}
+
+.title-beige-underline {
+    color: #d1c2af;
+    font-size: $is-size-1;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    padding-bottom: 50px;
+}
+
+.saznajte {
+    padding-bottom: 25px;
+}
+
+.footer {
+    background-color: $white;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: center;
+    
+    a {
+        padding-right: 50px;
+    }
+
+    .sadrzaj {
+        padding-right: 50px;
+    }
+}
+
+.kupaonice {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.kupaonica1 {
+    width: 40%;   
+}
+
+.kupaonica2 {
+    width: 40%;
+}
+
+.kvadratic1 {
+    position: absolute;
+    left: 0;
+}
